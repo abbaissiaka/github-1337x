@@ -264,6 +264,13 @@ a
         font-family: "Oswald Light";
         margin-bottom: 7px;
       }
+      .movies
+      {
+        width: 40px;
+        height: 40px;
+        border: none;
+        
+      }
       .categories li
       {
         display: inline-block;
