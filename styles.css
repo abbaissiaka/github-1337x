@@ -223,10 +223,36 @@ a
 .new2 span
 {
     color: #d83f10;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
-.hv:hover
+.new2 p
+{
+    height: 30px;
+}
+.new2 a
+{
+    color: #d83f09;
+}
+
+.hv2
+{
+    vertical-align: bottom;
+    position: relative;
+    top: 0px;
+}
+.hv3
+{
+    vertical-align: bottom;
+    position: relative;
+    top: 0px;
+    margin-right: 5px;
+}
+.hv2:hover 
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hv3:hover
 {
     text-decoration: underline;
     cursor: pointer;
@@ -266,10 +292,8 @@ a
       }
       .movies
       {
-        width: 40px;
-        height: 40px;
-        border: none;
-        
+        width: 30px;
+        height: 30px;
       }
       .categories li
       {
@@ -357,7 +381,7 @@ footer
   background-color: #090909;
   border-top: 1px solid #55200e;
   margin-top: 64px;
-  padding-bottom: 18px;
+  padding-bottom: 13px;
   text-align: center;
   position: relative;
 } 
@@ -375,7 +399,7 @@ footer p
     padding: 6px 0 0 ;
     margin: 0;
     position: relative;
-    top:0px;
+    top:-10px;
 }
 footer ul
 {
@@ -448,12 +472,13 @@ footer .hv1:hover
 {
     color:#d6360e;
 }
-.hv1
+footer .hv1
 {
     vertical-align: bottom;
     position: relative;
     top: 0px;
 }
+
 .ancr
 {
     position: absolute;
