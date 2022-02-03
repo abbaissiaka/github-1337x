@@ -232,6 +232,7 @@ a
 .new2 a
 {
     color: #d83f09;
+    font-weight: bold;
 }
 
 .hv2
@@ -286,14 +287,15 @@ a
       {
         text-transform: uppercase;
         color: #f14214;
-        font-size: 18px;
-        font-family: "Oswald Light";
+        font-size: 22px;
+        font-family: "Oswald Light"; 
         margin-bottom: 7px;
       }
       .movies
       {
         width: 30px;
         height: 30px;
+        margin-top: -1px;
       }
       .categories li
       {
@@ -508,7 +510,7 @@ footer .bt
 footer .ht
 {
     margin-left: 33px;
-    font-size: 31px;
+    font-size: 41px;
     position: relative;
     top:0px;
     color: #fff;
