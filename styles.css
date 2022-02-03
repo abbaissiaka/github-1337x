@@ -358,6 +358,21 @@ a
         border-top-right-radius: 100px;  
         content: '';
       }
+.categories i:hover
+{
+    
+        background-color: #b42f00;
+        transform: rotate(-20deg);
+        right: 0;
+        position: absolute;
+        border-bottom-right-radius: 100px;
+        border-top-right-radius: 100px;
+        top: -6px;
+        height: 100%;
+        width: 50%;
+        content: '';
+
+}      
 
 .fa
 {
