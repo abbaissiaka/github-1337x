@@ -9,12 +9,20 @@ body
 ul
 {
     list-style: none;
+    text-transform: uppercase;
+}
+a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+   
 }
 
 
 /*----- Header ----*/
 
-.container-fluid
+.container
 {
     padding-left: 15px;
     padding-right: 15px;
@@ -22,18 +30,24 @@ ul
     margin-right: auto;
     width: 100%;
     position: relative;
+    max-width: 1255px;
+
 }
 .top-bar
 {
     background: #000;
     border-bottom: 5px solid #822a0b;
-    padding: 10px 55px 25px 45px;
-    text-align: right;   
+    padding: 10px 0 0 0;
+    text-align: right;
+    min-height: 39px; 
 }
-.row
+.top-bar-right
 {
-    float: left;
-    
+    float: left; 
+}
+.top-bar-nav-left
+{
+    float: right;
 }
 
 .top-bar ul
@@ -48,10 +62,9 @@ ul
 
 .top-bar ul
 {
-    list-style: none;
-    text-transform: uppercase;
     padding: 0 15px;
-    font-family: "Oswald",serif;    
+    font-family: "Oswald",serif;
+       
 }
 .top-bar li
 {
@@ -64,20 +77,17 @@ ul
     margin-left:0;
     text-align: center;
 }
-a
+
+.top-bar ul li a:hover
 {
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
+    color: red;
+}
+.top-bar ul li a
+{
     position: relative;
     top:-5px;
     left: 4px;
 }
-.col a:hover
-{
-    color: red;
-}
-
 .ch1
 {
     color: #65ad19;
@@ -85,12 +95,6 @@ a
 .ch2
 {
     color: red;
-}
-.col1
-{
-    width: 150px;
-    position: relative;
-    left: 710px;
 }
 
 /*------  SECTION LOGO  ----*/
@@ -556,7 +560,14 @@ footer .ht
 
 /*---- MEDIA QUERY -------*/
 
-@media screen qnd
+@media (width-max: 768px)
+{
+    .row
+    {
+        float: none;
+        text-align: center;
+    }
+}
 
 
 
