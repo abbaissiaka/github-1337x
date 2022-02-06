@@ -15,14 +15,6 @@
 
 }
 
-
-
-
-
-
-
-
-
 /*------ CAS GENERAL ----*/
 
 body
@@ -31,7 +23,6 @@ body
    /* margin: 0;
     line-height: 1.42px;*/
 }
-
 ul
 {
     list-style: none;
@@ -42,7 +33,6 @@ a
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-   
 }
 
 
@@ -57,7 +47,6 @@ a
     width: 100%;
     position: relative;
     max-width: 1255px;
-
 }
 .top-bar
 {
@@ -79,7 +68,6 @@ a
     position: relative;
     left: 25px;
 }
-
 .top-bar ul
 {
     padding: 0px;
@@ -90,12 +78,10 @@ a
 {
     border-left: 0px;
 }
-
 .top-bar ul
 {
     padding: 0 15px;
-    font-family: "Oswald",serif;
-       
+    font-family: "Oswald",serif;      
 }
 .top-bar li
 {
@@ -108,7 +94,6 @@ a
     margin-left:0;
     text-align: center;
 }
-
 .top-bar ul li a:hover
 {
     color: red;
@@ -128,20 +113,51 @@ a
     color: red;
 }
 
-/*------  SECTION LOGO  ----*/
-.logo
+/*------- CONTENAIRES -------*/
+ 
+ .container2
+ {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    position: relative;
+    max-width: 1255px;
+ }
+ .row
+ {
+    margin-left: -15px;
+    margin-right: -15px;
+ }
+ .col-8
+ {
+    width: 67%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 17%;
+ }
 
-{
-     width: 280px;
-     margin-top: 65px;
-     margin-left: auto;
-     margin-right: auto;
-     text-align: center; 
-}
-.logo img
+/*------  SECTION LOGO  ----*/
+
+.logo
 {
     width: 265px;
-} 
+    margin: 60px auto; 
+}
+.logo a
+{
+    display: block;
+}
+.logo img 
+{
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
 
 
 /*----- SECTION BARRE DE RECHERCHE ----*/
@@ -152,58 +168,58 @@ input:focus
     border-color: #9ecaed;
     box-shadow:0 0 7px #9ecaed;
 }
-
 .cherch
 {
-     margin-right: auto;
-     text-align: center; 
-     margin-top: 54px;
-     width: 100%;
      position: relative;
-     display: flex;
-     margin-bottom: 100px;
+     margin: 0 7% 100px 7%;
 }
-
-
 .form-searc
 {
-
-    width: 53%;
-    height: 48px;
-    background: #000;
-    font-size: 18px;
-    padding-left: 20px;
-    font-family: "Oswald" sans-serif;
-    border-radius: 5px 0 0 5px; 
-    margin-left: auto;
-    margin-right: auto; 
-    color: #646464; 
-    border: 1px solid #646464;
-   
+   width: 100%;
+   font-size: 18px;
+   height: 48px;
+   background: #000;
+   border: 1px solid #5c4841;
+   border-radius: 3px 0 0 3px;
+   color: #adadad;
+   line-height: 38px;
+   margin: 0;
+   padding: 0 17px;
+   position: relative;
 }
 .formu
 {
 
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
+   position: relative;
+   padding-right: 113px;
 }
 .btn
 {
     height: 48px;
-    background: #b42f00;
+    line-height: 2.2;
+    background-color: #b42f00;
     color: #fff;
     width: 118px;
-    border-radius: 0 5px 5px 0; 
-    position: relative;
+    border-radius: 0 3px 3px 0; 
+    position:absolute;
     border: 1px solid #ee490e;
     text-transform: uppercase;
     font-size: 20px;     
-    text-align: center;
     text-shadow:0 -1px 2px #000; 
-    top: -3px;
-    left: -5px;
+    top:0;
+    right: 0;
+    padding: 0 10px 0 40px;
+    font-family: "Oswald Regular";
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 0;
+}
+.cherch i
+{
+    position: absolute;
+    top: 6;
+    left: 8px;
 }
 .btn2:hover
 {
@@ -211,226 +227,186 @@ input:focus
     color: white;
 }
 
-
-.fi
-{
-    margin-bottom: -15px;
-    line-height: 2.4;
-    margin-left: 32px;
-}
-
-.sp
-{
-    margin-left: 25px;
-    position: relative;
-    bottom: 05px;
-    line-height: 2.2;
-    font-family: "Oswald";
-
-}
-
 /*------  SECTION NEWS ----*/
 
 .news
 {
-    color: #fff;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Oswald"sans-serif;
-    margin-top: -5px;
+    background-color: transparent;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    position: relative;
 }
 .new1
 {
-    padding: 0 15px 0 15px;
-    border: 1px solid #ee490e;
-    height: 48px;
-    line-height: 2.2;
-    background: rgba(162,45,7,1);
-    width: 73%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2px;
-
+    background-color: rgba(214, 54, 0, 0.7);
+    border: 1px solid #FF6735;
+    border-radius: 3px 3px 0 0;
+    padding: 8px 20px;
+    position: relative;
+    line-height: 27px;
 }
-.new1 a
+.new1 h1
 {
-    color: #d61e00;
-    padding-left: 25px;
+    color: #fff;
+    margin: 6px 0 0 0;
+    padding: 0;
+    border: 0;
+    font-size: 17px;
+    font-family: "Oswald",sans-serif;
+    display: inline-block;
+}
+.info-time
+{
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    font-family: "Opensans Regular", sans-serif;
+    line-height: 19px;
+    margin-top: 5px;
+}
+.info-time i
+{
+    font-size: 16px;
+    margin-right: 8px;
 }
 .new2
 {
-    background: rgba(53,50,49,1);
-    height: 48px;
-    line-height: 4.2;
-    width: 73%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "arial";
-    font-size: 14px;
-    padding-left: 16px;
-}
-.new2 span
-{
-    color: #d83f10;
-    font-weight: bold;  
+    background-color: rgba(63, 63, 63, 0.7);
+    border-color: rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+    padding: 19px 20px;
+    border-radius: 3px;
 }
 .new2 p
 {
-    height: 30px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
 }
-.new2 a
+.new2 p a 
 {
     color: #d83f09;
-    font-weight: bold;
+    font-family: "Opensans Bold";
+}
+.new2 p a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #d83f09;
 }
 
-.hv2
+/*-- SECTION NEWS --*/
+
+.categories
 {
-    vertical-align: bottom;
-    position: relative;
-    top: 0px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-.hv3
+.categories li
 {
-    vertical-align: bottom;
-    position: relative;
-    top: 0px;
-    margin-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1%;
 }
-.hv2:hover 
+.categories h3
 {
-    text-decoration: underline;
-    cursor: pointer;
-}
-.hv3:hover
-{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.ne1
-{
-    width: 150px;
-    height: 35px;
-    font-family: "Oswald";
-    position: relative;
-    bottom: -5px;
+    text-transform: uppercase;
+    color: #f14f14;
     font-size: 18px;
+    font-family: "Oswald Light"; 
+    margin-bottom: 7px;
 }
-.ne2
+.categories a 
 {
-    width: 150px;
-    height: 35px;
-    float: right;
+    display: block;
+    color: #f14f14;
+}
+.categories a :hover
+{
+    color: #f14f14;
+    text-decoration: underline;
+}
+.icon
+{
     position: relative;
-    margin-top: -30px;
-    left: 70px;
+    color: #fff;
+    height: 72px;
+    width: 72px;
+    margin: 0 auto 20px;
+    line-height: 68px;
+    background-color: #b42f00;
+    border: 3px solid #ee490e;
+    border-radius: 100px;
+    display: block;
+}
+.icon i
+{
+    display: inline-block;
+    font-size: 28px;
+    position: relative;
+    z-index: 99;
+}
+.icon i:after
+{
+    position: absolute;
+    right: 0;
+    top: -6px;
+    background-color: #e2430b;
+    height: 100%;
+    width: 50%;
+    transform: rotate(-20deg);
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;  
+    content:'';
+}
+.library
+{
+    font-size: 13px;
+    color: #89ad19;
+    font-family: "Opensans Light",sans-serif;
+    line-height: 1.2;
+    display: block;
+}
+.library:hover
+{
+    color: #96d900;
+    cursor: pointer;
 }
 
-      /*-- SECTION NEWS --*/
-     .loisir
-      {
-        margin-top: 50px;
-      }
+.movies
+{
+    width: 30px;
+    height: 30px;
+    margin-top: -1px;
+}
 
-      .categories h3
-      {
-        text-transform: uppercase;
-        color: #f14214;
-        font-size: 18px;
-        font-family: "Oswald Light"; 
-        margin-bottom: 7px;
-      }
-      .categories h3 a 
-      {
-        font-size: 18px;
-        font-family: "Oswald",serif;
-        font-weight: none;
-      }
-      .movies
-      {
-        width: 30px;
-        height: 30px;
-        margin-top: -1px;
-      }
-      .categories li
-      {
-        display: inline-block;
-        vertical-align: top;
-        margin: 0 1%;
-      }
-      .ct:hover
-      {
-         color: #f14214;
-         text-decoration: underline;
 
-      }
-      .ct
-      {
-         color: #f14214;
-      }
-      .categories
-      {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-      }
-      .library
-      {
-        font-size: 13px;
-        color: #89ad19;
-        font-family: "Opensans Light",sans-serif;
-        line-height: 1.2;
-        display: block;
-      }
-      .library:hover
-      {
-        color: #96d900;
-        cursor: pointer;
-      }
-      .icon
-      {
-        position: relative;
-        color: #fff;
-        height: 72px;
-        width: 72px;
-        margin: 0 auto 20px;
-        line-height: 68px;
-        background-color: #b42f00;
-        border: 3px solid #ee490e;
-        border-radius: 100px;
-        display: block;
-      }
-      .icon:after
-      {
-        position: absolute;
-        right: 0;
-        top: -6px;
-        background-color: #e2430b;
-        height: 100%;
-        width: 50%;
-        transform: rotate(-20deg);
-        border-bottom-right-radius: 100px;
-        border-top-right-radius: 100px;  
-        content: '';
-      }
-.categories i:hover
+
+
+
+
+
+/*.categories i:hover
 {
     
-        background-color: #b42f00;
-        transform: rotate(-20deg);
-        right: 0;
-        position: absolute;
-        border-bottom-right-radius: 100px;
-        border-top-right-radius: 100px;
-        top: -6px;
-        height: 100%;
-        width: 50%;
-        /*content: '';*/
+    background-color: #b42f00;
+    transform: rotate(-20deg);
+    right: 0;
+    position: absolute;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    top: -6px;
+    height: 100%;
+    width: 50%;
+    /*content: '';*/
 
-}      
+}       
 
-.fa
+      
+
+.fi
 {
     position: absolute;
     top: 11px;
@@ -439,13 +415,7 @@ input:focus
     font-size: 20px;
 
 }
-.categories i 
-{
-    display: inline-block;
-    font-size: 28px;
-    position: relative;
-    z-index: 99;
-}
+
 
 /*-- FOOTER --*/ 
 
