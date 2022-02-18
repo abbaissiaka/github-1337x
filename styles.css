@@ -322,11 +322,10 @@ input:focus
     font-size: 18px;
     font-family: "Oswald",serif; 
     margin-bottom: 7px;
-
 }
-.categories a
+.categories a 
 {
-    display: block;
+    display: block; 
 }
 .icon
 {
